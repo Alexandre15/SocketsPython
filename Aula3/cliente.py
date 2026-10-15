@@ -21,7 +21,7 @@ try:
             enviarF(c, payload)
             resposta = receberF(c)
             if resposta is None:
-                print("[!] O servidor encerrou a conexão.")
+                print("[!] O servidor encerrou a conexão.") # gittest
                 break
 
             print(f"[SERVER] {resposta.decode("utf-8")}")
